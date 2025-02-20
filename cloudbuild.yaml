@@ -6,8 +6,8 @@ steps:
   args:
   - '-c'
   - |
-    docker build -t fedimersni/gdg-sousse:latest .
-    docker push fedimersni/gdg-sousse:latest
+    docker build -t europe-west1-docker.pkg.dev/aidodev/gdg-sousse:latest .
+    docker push europe-west1-docker.pkg.dev/aidodev/gdg-sousse:latest
 
 
 
@@ -21,7 +21,7 @@ steps:
       gcloud run deploy gdg-sousse \
       --region=europe-west1 \
       --allow-unauthenticated \
-      --image fedimersni/gdg-sousse:latest
+      --image europe-west1-docker.pkg.dev/aidodev/gdg-sousse:latest:latest
 
 
 
