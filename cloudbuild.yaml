@@ -21,7 +21,7 @@ steps:
       gcloud run deploy gdg-sousse \
       --region=europe-west1 \
       --allow-unauthenticated \
-      --image europe-west1-docker.pkg.dev/aidodev/gdg-sousse/gdg-sousse:latest:latest
+      --image europe-west1-docker.pkg.dev/aidodev/gdg-sousse/gdg-sousse:latest
 
 
 
