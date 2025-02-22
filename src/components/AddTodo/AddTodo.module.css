@@ -1,0 +1,9 @@
+.form{
+  background-color: black;
+  width: 600px;
+  height: 500px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}

@@ -6,8 +6,8 @@ steps:
   args:
   - '-c'
   - |
-    docker build -t europe-west1-docker.pkg.dev/aidodev/gdg-sousse/gdg-sousse:latest .
-    docker push europe-west1-docker.pkg.dev/aidodev/gdg-sousse/gdg-sousse:latest
+    docker build -t us-east1-docker.pkg.dev/qwiklabs-gcp-00-a9d8fe078fbc/gdg-sousse/gdg-sousse:latest .
+    docker push us-east1-docker.pkg.dev/qwiklabs-gcp-00-a9d8fe078fbc/gdg-sousse/gdg-sousse:latest
 
 
 
@@ -21,7 +21,7 @@ steps:
       gcloud run deploy gdg-sousse \
       --region=europe-west1 \
       --allow-unauthenticated \
-      --image europe-west1-docker.pkg.dev/aidodev/gdg-sousse/gdg-sousse:latest
+      --image us-east1-docker.pkg.dev/qwiklabs-gcp-00-a9d8fe078fbc/gdg-sousse/gdg-sousse:latest:latest
 
 
 

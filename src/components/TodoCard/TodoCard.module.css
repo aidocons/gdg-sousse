@@ -1,6 +1,12 @@
 .box {
-  margin: 0 auto;
-  width: 401px; /* 30.2% of the viewport width */
-  height: 419px; /* 30.1% of the viewport height */
-  background-color: antiquewhite;
+  width: 400px;
+  height: 200px;
+  background-color: rgb(37, 37, 37);
+  display: inline-flex;  /* Acts like inline-block but allows flexbox */
+  justify-content: center;
+  align-items: center;
+  color: white;             /* Makes text visible */
+  font-size: 20px;          /* Adjust text size */
+  margin-right: 20px;
+  border-radius: 20px;
 }
