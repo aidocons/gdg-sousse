@@ -21,7 +21,7 @@ steps:
       gcloud run deploy gdg-sousse \
       --region=us-east1 \
       --allow-unauthenticated \
-      --image us-east1-docker.pkg.dev/qwiklabs-gcp-00-a9d8fe078fbc/gdg-sousse/gdg-sousse:latest:latest
+      --image us-east1-docker.pkg.dev/qwiklabs-gcp-00-a9d8fe078fbc/gdg-sousse/gdg-sousse:latest
 
 
 
